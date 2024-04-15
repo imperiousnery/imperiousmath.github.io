@@ -4,52 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imperious Math</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #efefef;
-            color: #161d22;
-        }
-        header {
-            color: #efefef;
-            background-color: #161d22;
-            padding: 10px;
-            text-align: center;
-        }
-        nav {
-            background-color: #161d22;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            color: #efefef;
-            text-decoration: none;
-            margin: 0 10px;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        section {
-            padding: 20px;
-            text-align: center;
-        }
-        footer {
-            background-color: #161d22;
-            padding: 10px;
-            text-align: center;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            color: #efefef;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- MathJax -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
 <body>
-<header><h1>Imperious Math</h1>
-</header>
+<header><h1>Imperious Math</h1></header>
 
 <nav>
     <a href="#home">Início</a>
@@ -62,10 +24,11 @@
     <a href="#periodo7">7º Período</a>
     <a href="#periodo8">8º Período</a>
 </nav>
+
 <section id="home">
     <h2>Olá</h2>
-   
 </section>
+
 <section id="periodo1">
     <h2>1º Período</h2>
     <p>
@@ -81,6 +44,9 @@
 
 <footer>
     <p>&copy; 2024 Luan Nery</p>
+    <p>Fórmulas:</p>
+    <p>Área de um círculo: \( A = \pi r^2 \)</p>
+    <p>Soma dos \( n \) primeiros números naturais: \( S_n = \frac{{n(n+1)}}{2} \)</p>
 </footer>
 
 </body>
