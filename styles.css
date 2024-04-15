@@ -5,6 +5,12 @@ body {
     background-color: #efefef;
     color: #161d22;
 }
+section {
+    padding: 20px;
+    text-align: center;
+    display: block; /* Garante que a seção seja exibida corretamente */
+    overflow: auto; /* Adiciona rolagem caso o conteúdo seja muito grande para a tela */
+}
 header {
     color: #efefef;
     background-color: #161d22;
