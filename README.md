@@ -1,2 +1,0 @@
-# imperiousmath.github.io
-Math?
